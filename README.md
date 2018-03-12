@@ -3,10 +3,10 @@ Android儲存路徑
 
 <h2>Context和Environment的區別</h2>
 
-● Context : 取得在APP環境下面的資料夾，如在此儲存資料，資料會隨著APP移除而刪除
+● Context : 取得在APP環境下面的資料夾，資料會隨著APP移除而刪除
 （ex：Context.getFilesDir( ) -> data/data/[package_name]/cache）
 
-● Enviroment : 取得在系統環境的相關資訊，如在此儲存資料，資料不會隨著APP移除而刪除
+● Enviroment : 取得在系統環境的相關資訊，資料不會隨著APP移除而刪除
 （ex：Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS); 
 -> storage/sdcard0/Download）
 
