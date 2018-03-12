@@ -25,7 +25,7 @@ Android儲存路徑
 
 <h2>內部儲存空間（Internal Storage）</h2>
 
-● 儲存位置($appDataDir) : ```/data/data/[package_name]```
+儲存位置($appDataDir) : ```/data/data/[package_name]```
 
 ● Context.getFilesDir( ) : ```($appDataDir)/files```
 
@@ -35,7 +35,7 @@ Android儲存路徑
 
 <h2>外部儲存空間（External Storage）</h2>
 
-● 儲存位置($appDataDir) : ```/storage/sdcard0/Android/data/[package_name]```
+儲存位置($appDataDir) : ```/storage/sdcard0/Android/data/[package_name]```
 
 ● Context.getExternalFilesDir(“ “) : ```($appDataDir)/files```
 
